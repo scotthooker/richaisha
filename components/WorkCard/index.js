@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 const WorkCard = ({ img, name, description, onClick }) => {
   return (
@@ -8,6 +9,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
       <div
         className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 mob:h-48"
         style={{ height: "600px" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
         <img alt={name} className="h-full w-full object-cover" src={img}></img>
       </div>
     </div>

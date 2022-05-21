@@ -22,7 +22,7 @@ export default {
             description: "Web Design",
             //Project Image - Add Your Project Image Here
             imageSrc:
-                "5.jpg",
+                "/5.jpg",
             //Project URL - Add Your Project Url Here
             url: "https://tootingtramandsocial.co.uk",
         },
@@ -49,7 +49,7 @@ export default {
             description: "Marketing",
             //Project Image - Add Your Project Image Here
             imageSrc:
-                '2.jpg',
+                '/2.jpg',
             //Project URL - Add Your Project Url Here
             url: "https://fiskebaren.dk/en/",
         },
